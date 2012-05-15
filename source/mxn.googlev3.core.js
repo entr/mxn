@@ -501,6 +501,7 @@ Marker: {
 		options.map = this.map;
 
 		var marker = new google.maps.Marker(options);
+		marker.mapstraction_marker = this;
 
 		if (this.infoBubble) {
 			var event_action = "click";
